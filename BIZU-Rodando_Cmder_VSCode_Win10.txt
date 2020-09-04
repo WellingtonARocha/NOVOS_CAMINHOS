@@ -1,3 +1,4 @@
+//bizu de configuração para rodar o cmder de forma integrada ao VSCode
 ###############Can I use Cmder's shell with the terminal on Windows?#############
 
 -> Yes, to use the Cmder shell in VS Code, you need to add the following settings to your settings.json file:
