@@ -1,4 +1,5 @@
 //bizu de configuração para rodar o cmder de forma integrada ao VSCode
+
 ###############Can I use Cmder's shell with the terminal on Windows?#############
 
 -> Yes, to use the Cmder shell in VS Code, you need to add the following settings to your settings.json file:
@@ -27,6 +28,6 @@ Note: Please make sure that CMDER_ROOT is configured under your Windows Paths, y
 **Tip:** You can [define an environment variable](Setting-up-Environment-Variables) to use as `[cmder_root]`.
 Press Ctrl + ` (Control-Tilde) to open VS Code's terminal.
 
-//*Créditos <https://github.com/cmderdev/cmder/wiki/Seamless-VS-Code-Integration>
+//*Créditos <https://github.com/cmderdev/cmder/wiki/Seamless-VS-Code-Integration>*//
 
 
