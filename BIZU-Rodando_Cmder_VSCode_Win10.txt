@@ -28,6 +28,6 @@ Note: Please make sure that CMDER_ROOT is configured under your Windows Paths, y
 **Tip:** You can [define an environment variable](Setting-up-Environment-Variables) to use as `[cmder_root]`.
 Press Ctrl + ` (Control-Tilde) to open VS Code's terminal.
 
-//*Créditos <https://github.com/cmderdev/cmder/wiki/Seamless-VS-Code-Integration>*//
+//*Créditos <https://github.com/cmdercdev/cmder/wiki/Seamless-VS-Code-Integration>*//
 
 
