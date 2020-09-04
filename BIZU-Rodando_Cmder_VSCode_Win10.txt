@@ -1,0 +1,29 @@
+#Can I use Cmder's shell with the terminal on Windows?#
+
+-> Yes, to use the Cmder shell in VS Code, you need to add the following settings to your settings.json file:
+
+//configuração indicando o caminho de execução do Cmder, para rodar de forma integrada ao VSCode, não como pop up.
+
+"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+"terminal.integrated.shellArgs.windows": ["/K", "C:\\cmder\\vendor\\bin\\vscode_init.cmd"]
+ 
+
+//configuração indicando o Cmder como variável de ambiennte PATH do windows
+
+Press "Ctrl + ," to access VSCode Settings
+Search for settings.json
+Click Edit in settings.json
+Append or modify the following into your configuration file:
+
+Note: Please make sure that CMDER_ROOT is configured under your Windows Paths, you can also substitute it with the path to your cmder installation. The below config produces a default Cmder terminal using Cmd.exe shell as if you launched Cmder.exe. The terminal.integrated.env.windows are only valid with Cmd.exe based shells and will have no effect if using Powershell or Bash.
+
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+      "/k",
+      "%CMDER_ROOT%\\vendor\\bin\\vscode_init.cmd"
+    ],
+
+**Tip:** You can [define an environment variable](Setting-up-Environment-Variables) to use as `[cmder_root]`.
+Press Ctrl + ` (Control-Tilde) to open VS Code's terminal.
+
+
